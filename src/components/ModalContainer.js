@@ -46,9 +46,6 @@ const Wrapper = styled.div`
   z-index: 99999;
   .modal-center {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* padding: 32px 25px; */
     opacity: 0;
     width: 0;
     height: 0;

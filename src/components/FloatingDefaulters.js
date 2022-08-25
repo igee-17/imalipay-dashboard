@@ -31,7 +31,6 @@ const Wrapper = styled.aside`
   align-items: flex-start;
   padding: 24px;
   gap: 24px;
-  /* width: 327px; */
   width: 307px;
   height: 192px;
   background: #ffffff;
@@ -76,10 +75,6 @@ const Wrapper = styled.aside`
     align-items: flex-end;
     justify-content: space-between;
     padding-right: 24px;
-    /* gap: 16px; */
-    /* border: 2px solid red; */
-
-    width: 279px;
     height: 44px;
   }
   .colored {

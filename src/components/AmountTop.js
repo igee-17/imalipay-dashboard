@@ -30,30 +30,23 @@ const Wrapper = styled.section`
 
   border: 1px solid #eaecf0;
   margin: 16px 0 32px;
-  /* border: 2px solid red; */
   width: 100%;
   height: 89px;
   left: 918px;
   top: 330px;
   padding: 16px 24px;
-
   border-radius: 10px;
-
   display: flex;
   justify-content: center;
   .content-center {
-    /* border: 2px solid green; */
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     .amount-item {
-      /* border: 2px solid brown; */
       display: flex;
       flex-direction: column;
-      /* align-items: flex-start; */
       gap: 8px;
-      /* width: 148px; */
       width: 50%;
       height: 57px;
     }
@@ -61,7 +54,6 @@ const Wrapper = styled.section`
       border-left: 1px solid #d9d9d9;
       display: flex;
       flex-direction: column;
-      /* align-items: flex-end; */
       padding-left: 37px;
       .container {
         display: flex;

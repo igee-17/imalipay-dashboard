@@ -6,7 +6,6 @@ const NavLinks = () => {
   return (
     <Wrapper>
       {navLinks.map((link) => {
-        // const { id, img, text, path } = link;
         return <NavLink key={link.id} {...link} />;
       })}
     </Wrapper>
@@ -18,9 +17,6 @@ const Wrapper = styled.div`
   grid-template-columns: 1fr;
   gap: 0.3rem;
   margin-top: 38px;
-  /* margin-top: 66px; */
-
-  /* flex-direction: column */
 `;
 
 export default NavLinks;

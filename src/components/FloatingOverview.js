@@ -21,7 +21,6 @@ const Wrapper = styled.aside`
   gap: 24px;
   padding: 24px;
   width: 307px;
-  /* height: 180.25px; */
   height: 192px;
   background: #ffffff;
   border: 1px solid #eaecf0;

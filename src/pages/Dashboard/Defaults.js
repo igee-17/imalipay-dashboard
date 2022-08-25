@@ -38,7 +38,6 @@ const Defaults = () => {
 };
 
 const Wrapper = styled.section`
-  /* border: 2px solid blue; */
   min-width: 403px;
   width: calc(100vw - 403px);
   margin-top: 141px;
@@ -47,7 +46,6 @@ const Wrapper = styled.section`
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
-    /* margin-top: 141px; */
     margin-bottom: 36px;
   }
   .cards-container {
@@ -69,14 +67,12 @@ const Wrapper = styled.section`
     top: 510px;
     background: #ffffff;
     border-radius: 10px;
-    /* margin-bottom: 107px; */
   }
   .search-bar {
     margin-top: 98px;
     margin-bottom: 38px;
   }
   .bordered {
-    /* border: 2px solid red; */
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }

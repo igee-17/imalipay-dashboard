@@ -28,8 +28,6 @@ const Wrapper = styled.header`
   width: 100%;
   height: 52px;
   display: flex;
-  /* grid-template-columns: auto 1fr 1fr 1fr 1fr; */
-  /* gap: 55px; */
   background: #f3f3f3;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -46,11 +44,9 @@ const Wrapper = styled.header`
     display: flex;
     align-items: center;
     width: 210px;
-    /* border: 2px solid red; */
     padding-left: 65px;
 
     h2 {
-      /* border: 2px solid red; */
       margin: 0;
       font-style: normal;
       font-weight: 600;
@@ -61,7 +57,6 @@ const Wrapper = styled.header`
     }
   }
   .column-one {
-    /* width: auto; */
     padding-left: 24px;
     h2 {
       width: 160px;

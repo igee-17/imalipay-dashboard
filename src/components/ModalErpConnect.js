@@ -48,7 +48,6 @@ const ModalErpConnect = () => {
 
 const Wrapper = styled.div`
   padding: 32px 25px;
-  /* border: 2px solid red; */
   width: 480px;
   height: 296px;
   background: #ffffff;
@@ -73,11 +72,9 @@ const Wrapper = styled.div`
     line-height: 17px;
     color: #808080;
     margin-bottom: 33px;
-    /* border: 2px solid red; */
   }
   .erp {
     border: 1px solid #e5e5e5;
-    /* border: 2px solid blue; */
     width: 430px;
     height: 52px;
     background: #ffffff;
@@ -125,7 +122,6 @@ const Wrapper = styled.div`
   .dropdown {
     position: absolute;
     width: 430px;
-    /* width: 100%; */
     height: 72px;
     background: #ffffff;
     border: 1px solid #e9e9e9;

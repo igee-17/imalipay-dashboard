@@ -38,7 +38,6 @@ const Wrapper = styled.aside`
     display: flex;
   }
   .logo {
-    /* margin-bottom: 30px; */
     height: 43px;
     width: 161px;
     object-fit: cover;
@@ -67,7 +66,6 @@ const Wrapper = styled.aside`
     text-align: left;
     margin-top: 51px;
     line-height: 15px;
-    /* margin-bottom: 53px; */
   }
 
   @media (min-width: 992px) {

@@ -30,7 +30,6 @@ const Customers = () => {
 };
 
 const Wrapper = styled.section`
-  /* border: 2px solid blue; */
   min-width: 403px;
   width: calc(100vw - 403px);
   margin-top: 141px;

@@ -33,11 +33,9 @@ const InfoCard = (props) => {
 
 const Wrapper = styled.aside`
   border: 1px solid #eaecf0;
-  /* border: 2px solid green; */
   width: 100%;
   height: 72px;
   display: flex;
-  /* gap: 10px; */
   background: #ffffff;
   input {
     width: 20px;
@@ -51,13 +49,11 @@ const Wrapper = styled.aside`
     margin: 0;
     display: flex;
     align-items: center;
-    /* border: 2px solid blue; */
     width: 210px;
     padding-left: 65px;
 
     h2 {
       margin: 0;
-      /* margin-left: 16px; */
       font-style: normal;
       font-weight: 600;
       font-size: 12px;
@@ -71,7 +67,6 @@ const Wrapper = styled.aside`
       display: flex;
       align-items: center;
       gap: 12px;
-      /* border: 2px solid green; */
       width: 155px;
       h3 {
         font-size: 14px;
@@ -93,7 +88,6 @@ const Wrapper = styled.aside`
     }
   }
   .column-one {
-    /* width: auto; */
     gap: 12px;
     padding-left: 24px;
   }

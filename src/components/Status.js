@@ -17,13 +17,8 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   padding: 2px 8px;
-  /* width: 65px; */
   height: 22px;
   text-transform: capitalize;
-
-  /* Error/50 */
-
-  /* background: ; */
   border-radius: 16px;
 `;
 

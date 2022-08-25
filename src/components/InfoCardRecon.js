@@ -6,7 +6,6 @@ import InfoProfile from "./InfoProfile";
 const InfoCardRecon = (props) => {
   const { id, image, name, phone, col1, col2, col3, col4, col5, border } =
     props;
-  //   console.log(border, id);
   return (
     <Wrapper className={border === id ? "bordered" : null}>
       <div className="column-one column">
@@ -33,7 +32,6 @@ const InfoCardRecon = (props) => {
 
 const Wrapper = styled.aside`
   border: 1px solid #eaecf0;
-  /* border: 2px solid green; */
   display: grid;
   grid-template-columns: 220px 255px 171px 171px auto;
   width: 100%;
@@ -51,8 +49,6 @@ const Wrapper = styled.aside`
     margin: 0;
     display: flex;
     align-items: center;
-    /* border: 2px solid blue; */
-    /* padding-left: 25px; */
 
     h2 {
       margin: 0;
@@ -60,9 +56,7 @@ const Wrapper = styled.aside`
       font-weight: 600;
       font-size: 12px;
       line-height: 16px;
-
       text-transform: uppercase;
-
       color: #707070;
     }
     .profile {
@@ -99,10 +93,8 @@ const Wrapper = styled.aside`
     .col5 {
       display: flex;
       flex-direction: row;
-      /* justify-content: center; */
       align-items: center;
       padding: 2px 8px;
-      /* width: 79px; */
       height: 22px;
       background: #ecfdf3;
       border-radius: 16px;

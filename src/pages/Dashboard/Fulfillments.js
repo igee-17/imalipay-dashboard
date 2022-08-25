@@ -37,7 +37,6 @@ const Customers = () => {
 };
 
 const Wrapper = styled.section`
-  /* border: 2px solid blue; */
   min-width: 403px;
   margin-top: 141px;
 
@@ -77,8 +76,6 @@ const Wrapper = styled.section`
   }
   .text {
     text-transform: capitalize;
-    /* border: 2px solid green; */
-    /* font-weight: 600; */
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -100,7 +97,6 @@ const Wrapper = styled.section`
   }
   .customers-info {
     width: 100%;
-    /* height: 412px; */
     left: 355px;
     top: 510px;
     background: #ffffff;

@@ -61,14 +61,11 @@ const Wrapper = styled.aside`
   }
   .left {
     width: 70%;
-    /* border: 2px solid red; */
     height: 100%;
   }
   .right {
     width: 30%;
     height: 132px;
-    /* border: 2px solid blue; */
-    /* height: 100%; */
     display: flex;
     justify-content: flex-end;
     select {
@@ -84,10 +81,8 @@ const Wrapper = styled.aside`
       cursor: pointer;
       text-transform: uppercase;
       padding-left: 3px;
-
       -webkit-appearance: none;
       -moz-appearance: none;
-      /* background: transparent; */
       background-repeat: no-repeat;
       background-position-x: 100%;
       background-position-y: 5px;
@@ -105,7 +100,6 @@ const Wrapper = styled.aside`
   }
   .last-right {
     width: 132px;
-    /* border: 2px solid green; */
   }
   img {
     width: 48px;
@@ -126,10 +120,6 @@ const Wrapper = styled.aside`
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    /* identical to box height, or 143% */
-
-    /* Gray/500 */
-
     color: #667085;
   }
   .number {
@@ -160,7 +150,6 @@ const Wrapper = styled.aside`
     height: 132px;
     background: #fff0d1;
     border: 7px solid rgba(0, 0, 0, 0.05);
-    /* border-bottom: 7px solid #feaa00; */
     border-top: 7px solid #feaa00;
     border-left: 7px solid #feaa00;
     border-radius: 50%;
@@ -171,7 +160,6 @@ const Wrapper = styled.aside`
     justify-content: center;
     .content {
       transform: rotate(60deg);
-      /* border: 2px solid red; */
       width: 67px;
       height: 44px;
       p {

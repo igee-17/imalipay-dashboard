@@ -37,14 +37,12 @@ const InputNames = ({ labelOne, labelTwo, valueOne, valueTwo }) => {
 const Wrapper = styled.aside`
   width: 100%;
   display: flex;
-  /* border: 2px solid blue; */
   justify-content: space-between;
   margin-bottom: 16px;
 
   .name-item {
     width: 203px;
     height: 77px;
-    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -55,14 +53,8 @@ const Wrapper = styled.aside`
       line-height: 17px;
       color: #808080;
       margin-bottom: 8px;
-
-      /* width: 69px; */
-      /* height: 17px; */
     }
     input {
-      /* width: 203px; */
-
-      /* width: 95%; */
       width: 179px;
       height: 52px;
       background: #fafafa;
@@ -75,15 +67,12 @@ const Wrapper = styled.aside`
       border: none;
 
       color: #101010;
-      /* color: red; */
     }
   }
   .name-right {
     .label-container {
-      /* border: 2px solid green; */
       width: 179px;
     }
-    /* border: 2px solid blue; */
     display: flex;
     align-items: flex-end;
 

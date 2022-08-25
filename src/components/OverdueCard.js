@@ -18,7 +18,6 @@ const OverdueCard = (props) => {
     </Wrapper>
   );
 };
-// text="overdue" color="#FEF3F2" fontColor="#B42318"
 const Wrapper = styled.section`
   margin-bottom: 16px;
   display: flex;
@@ -29,7 +28,6 @@ const Wrapper = styled.section`
     align-items: center;
   }
   .info {
-    /* border: 2px solid blue; */
     margin: 0 8px;
     display: flex;
     flex-direction: column;
@@ -59,9 +57,6 @@ const Wrapper = styled.section`
     text-align: right;
     color: #101010;
   }
-  /* .status {
-    border: 2px solid red;
-  } */
 `;
 
 export default OverdueCard;

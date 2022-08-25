@@ -36,7 +36,3 @@ const Wrapper = styled.aside`
     color: #027a48;
   }
 `;
-
-// console.log(Verified);
-
-// export default Verified;

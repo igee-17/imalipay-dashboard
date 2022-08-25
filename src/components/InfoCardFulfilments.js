@@ -43,7 +43,6 @@ const InfoCardFulfilments = (props) => {
 
 const Wrapper = styled.aside`
   border: 1px solid #eaecf0;
-  /* border: 2px solid green; */
   display: grid;
   grid-template-columns: 267px 195px 208px 157px auto;
   width: 100%;
@@ -61,8 +60,6 @@ const Wrapper = styled.aside`
     margin: 0;
     display: flex;
     align-items: center;
-    /* border: 2px solid blue; */
-    /* padding-left: 25px; */
 
     h2 {
       margin: 0;
@@ -112,10 +109,8 @@ const Wrapper = styled.aside`
     .col5 {
       display: flex;
       flex-direction: row;
-      /* justify-content: center; */
       align-items: center;
       padding: 2px 8px;
-      /* width: 79px; */
       height: 22px;
       background: #ecfdf3;
       border-radius: 16px;

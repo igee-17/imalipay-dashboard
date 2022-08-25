@@ -13,7 +13,6 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   const logOut = () => {
-    // setIsOpen(!isOpen);
     toast.warning("logging out...");
     setTimeout(() => {
       toggleDropdown();
@@ -40,7 +39,6 @@ const Navbar = () => {
             <Animate>
               <div className="name" onClick={toggleDropdown}>
                 <h3>Alex</h3>
-                {/* <img src={arrowDown} alt="arrow-down" /> */}
                 <button className="btn">
                   <img src={arrowDown} alt="arrow down" />
                 </button>
@@ -111,7 +109,6 @@ const Wrapper = styled.nav`
     display: flex;
     flex-direction: row;
     margin-left: 438px;
-    /* border: 2px solid blue; */
     width: 258.33px;
     justify-content: space-between;
     align-items: center;
@@ -178,7 +175,6 @@ const Wrapper = styled.nav`
       position: absolute;
       height: 210%;
       width: 110%;
-      /* border: 2px solid red; */
       opacity: 0;
       transform: translateY(50%);
       z-index: -1;

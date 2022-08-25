@@ -94,7 +94,6 @@ const CustomerProfile = () => {
 };
 
 const Wrapper = styled.section`
-  /* border: 2px solid blue; */
   min-width: 403px;
   width: calc(100vw - 403px);
   margin-top: 141px;
@@ -130,10 +129,8 @@ const Wrapper = styled.section`
     align-items: center;
     padding: 0px;
     gap: 10px;
-
     width: 129px;
     height: 56px;
-
     margin: 24px 0 37px;
 
     h3 {
@@ -164,7 +161,6 @@ const Wrapper = styled.section`
     margin-bottom: 96px;
     .item {
       padding: 0px 48px;
-      /* border: 2px solid red; */
       height: 100%;
       width: 50%;
     }
@@ -178,8 +174,6 @@ const Wrapper = styled.section`
         font-weight: 500;
         font-size: 14px;
         line-height: 17px;
-        /* identical to box height */
-
         color: #808080;
       }
     }

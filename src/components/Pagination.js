@@ -32,7 +32,6 @@ const Pagination = () => {
 };
 
 const Wrapper = styled.footer`
-  /* border: 2px solid green; */
   height: 40px;
   width: 100%;
   margin-top: 24px;

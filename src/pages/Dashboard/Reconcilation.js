@@ -6,7 +6,6 @@ import {
   InfoCardRecon,
   FloatingReconcilation,
   ModalContainer,
-  ModalErp,
   ModalUpload,
   ModalAccount,
   ModalErpMain,
@@ -26,13 +25,11 @@ import {
   arrowDownIos,
 } from "../../assets/icons";
 
-// import { useDispatch } from "@reduxjs/toolkit";
 import { toggleModal } from "../../features/dashboardSlice";
 
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
-// import { } from "../components";
 
 const modalArray = [<ModalErpMain />, <ModalUpload />, <ModalAccount />];
 
@@ -103,15 +100,11 @@ const Reconcilation = () => {
 };
 
 const Wrapper = styled.section`
-  /* border: 2px solid blue; */
   min-width: 403px;
   width: calc(100vw - 403px);
   max-width: 80vw;
   margin-top: 107px;
 
-  /* .modal {
-    transition: all 4s ease-out 0s;
-  } */
   .profile {
     h3 {
       text-transform: capitalize;
@@ -127,7 +120,6 @@ const Wrapper = styled.section`
   .features {
     height: 42px;
     width: 100%;
-    /* border: 2px solid blue; */
     margin-bottom: 24px;
     display: flex;
     justify-content: space-between;
@@ -144,7 +136,6 @@ const Wrapper = styled.section`
       border-radius: 8px;
       transition: var(--transition-slow);
       :hover {
-        /* transform: scale(0.98); */
         box-shadow: 0px 1px 4px rgba(16, 24, 40, 0.45);
 
         transition: var(--transition-slow);
@@ -161,19 +152,16 @@ const Wrapper = styled.section`
         line-height: 17px;
         text-align: center;
         color: #101010;
-        /* border: 2px solid blue; */
       }
     }
     .right {
       height: 100%;
       width: auto;
-      /* border: 2px solid red; */
       display: flex;
     }
     .item {
       width: 151px;
       height: 100%;
-      /* border: 2px solid green; */
       border: none;
       text-decoration: none;
       display: flex;
@@ -231,11 +219,9 @@ const Wrapper = styled.section`
   .customers-info {
     margin-bottom: 24px;
     border-radius: 10px;
-    /* border: 2px solid red; */
     width: 100%;
   }
   .bordered {
-    /* border: 2px solid red; */
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
@@ -245,13 +231,6 @@ const Wrapper = styled.section`
     border: 1px solid #ababab;
     margin-bottom: 32px;
   }
-  /* .text {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    color: #101010;
-  } */
 `;
 
 export default Reconcilation;

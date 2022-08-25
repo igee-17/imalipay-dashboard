@@ -30,7 +30,6 @@ const Wrapper = styled.section`
     border-radius: 10px;
     background: #ffffff;
     border: 1px solid #dcdcdc;
-    /* display: flex; */
     display: grid;
     grid-template-columns: 20px auto;
     gap: 8px;
@@ -51,7 +50,6 @@ const Wrapper = styled.section`
     background: #ffffff;
     border-radius: 10px;
     border: none;
-    /* padding-top: 15.69px; */
     display: flex;
     height: 100%;
     align-items: center;

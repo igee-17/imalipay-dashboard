@@ -31,23 +31,17 @@ const ModalAccountMain = () => {
 };
 
 const Wrapper = styled.div`
-  /* border: 2px solid red; */
   padding: 32px 25px;
-
   width: 480px;
   height: 388px;
   display: grid;
-  /* flex-direction: column; */
   grid-template-rows: 50px 1fr;
 
   .top {
-    /* border: 2px solid blue; */
     h2 {
       font-weight: 500;
       font-size: 24px;
       line-height: 29px;
-      /* identical to box height */
-
       color: #222222;
       margin: 0;
     }
@@ -56,22 +50,16 @@ const Wrapper = styled.div`
       font-weight: 400;
       font-size: 14px;
       line-height: 17px;
-      /* identical to box height */
-
       color: #808080;
     }
   }
   .bottom {
     padding: 32px 0px;
-    /* border: 2px solid green; */
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     .bottom-item {
       margin-bottom: 24px;
-      /* border: 2px solid brown; */
-
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -84,12 +72,8 @@ const Wrapper = styled.div`
       font-weight: 500;
       font-size: 14px;
       line-height: 17px;
-      /* identical to box height */
-
       text-align: center;
       width: 150%;
-      /* border: 2px solid red; */
-
       color: #000000;
     }
   }

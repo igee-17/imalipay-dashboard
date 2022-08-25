@@ -21,7 +21,6 @@ const ModalErp = () => {
 
 const Wrapper = styled.div`
   padding: 32px 25px;
-  /* border: 2px solid red; */
   width: 480px;
   height: 296px;
   background: #ffffff;
@@ -42,13 +41,10 @@ const Wrapper = styled.div`
   }
   .erp {
     border: 1px solid #e5e5e5;
-    /* border: 2px solid blue; */
     width: 430px;
     height: 52px;
     background: #ffffff;
     border-radius: 10px;
-    /* display: flex; */
-    /* align-items: center; */
     padding: 16px 16px;
     margin-bottom: 24px;
   }

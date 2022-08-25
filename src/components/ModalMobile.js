@@ -27,43 +27,32 @@ const ModalMobile = ({ header, infoOne, infoTwo }) => {
 };
 
 const Wrapper = styled.div`
-  /* border: 2px solid red; */
   padding: 32px 25px;
-
   width: 480px;
   height: 388px;
   display: grid;
-  /* flex-direction: column; */
   grid-template-rows: 50px 1fr;
   .top {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 8px;
-    /* width: 93px; */
     height: 32px;
     text-decoration: none;
-    /* border: 2px solid red; */
     p {
       font-weight: 400;
       font-size: 14px;
       line-height: 17px;
-      /* identical to box height */
-
       letter-spacing: -0.03em;
-
       color: #222222;
     }
   }
 
   .middle {
-    /* border: 2px solid blue; */
     h2 {
       font-weight: 500;
       font-size: 24px;
       line-height: 29px;
-      /* identical to box height */
-
       color: #222222;
       margin: 0;
     }
@@ -72,8 +61,6 @@ const Wrapper = styled.div`
       font-weight: 400;
       font-size: 14px;
       line-height: 17px;
-      /* identical to box height */
-
       color: #808080;
     }
   }

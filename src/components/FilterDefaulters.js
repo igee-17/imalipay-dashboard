@@ -15,7 +15,6 @@ const FilterDefaulters = () => {
 
 const Wrapper = styled.header`
   width: 100%;
-  /* border: 2px solid blue; */
   height: 52px;
   display: flex;
   justify-content: flex-end;

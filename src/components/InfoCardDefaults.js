@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import InfoProfile from "./InfoProfile";
 
 const InfoCardDefaults = (props) => {
   const { id, image, name, phone, col1, col2, col3, col4, col5 } = props;
@@ -32,7 +31,6 @@ const InfoCardDefaults = (props) => {
 
 const Wrapper = styled.aside`
   border: 1px solid #eaecf0;
-  /* border: 2px solid green; */
   display: grid;
   grid-template-columns: 297px 171px 228px 96px auto;
   width: 100%;
@@ -50,13 +48,10 @@ const Wrapper = styled.aside`
     margin: 0;
     display: flex;
     align-items: center;
-    /* border: 2px solid blue; */
-    /* width: 210px; */
     padding-left: 25px;
 
     h2 {
       margin: 0;
-      /* margin-left: 16px; */
       font-style: normal;
       font-weight: 600;
       font-size: 12px;
@@ -70,8 +65,6 @@ const Wrapper = styled.aside`
       display: flex;
       align-items: center;
       gap: 12px;
-      /* border: 2px solid green; */
-      /* width: 155px; */
       h3 {
         font-size: 14px;
         font-weight: 400;
@@ -87,12 +80,8 @@ const Wrapper = styled.aside`
     }
   }
   .column-one {
-    /* width: auto; */
     gap: 12px;
     padding-left: 24px;
-    h2 {
-      /* width: 160px; */
-    }
   }
   .link {
     text-decoration: none;

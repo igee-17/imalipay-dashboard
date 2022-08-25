@@ -28,26 +28,18 @@ const Wrapper = styled.aside`
   display: none;
 
   @media (min-width: 992px) {
-    /* padding: 48px 39px; */
     padding-top: 38px;
     padding-left: 42px;
     display: block;
     .sidebar-container {
-      /* position: fixed; */
       background: var(--white);
       height: 100%;
     }
     .logo {
-      /* margin-bottom: 30px; */
       height: 43px;
       width: 161px;
       object-fit: cover;
     }
-    /* .content {
-      position: fixed;
-
-      top: 0;
-    } */
     .show-sidebar {
       margin-left: 0;
     }
@@ -64,7 +56,6 @@ const Wrapper = styled.aside`
       text-align: left;
       margin-top: 51px;
       line-height: 15px;
-      /* margin-bottom: 53px; */
     }
   }
 `;

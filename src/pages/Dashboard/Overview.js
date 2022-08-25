@@ -32,7 +32,6 @@ const Overview = () => {
 };
 
 const Wrapper = styled.section`
-  /* border: 2px solid blue; */
   min-width: 403px;
   width: calc(100vw - 403px);
   max-width: 80vw;
@@ -53,9 +52,7 @@ const Wrapper = styled.section`
     gap: 4px;
   }
   .customers-info {
-    /* margin-bottom: 24px; */
     border-radius: 10px;
-    /* border: 2px solid red; */
     width: 100%;
   }
   .bordered {

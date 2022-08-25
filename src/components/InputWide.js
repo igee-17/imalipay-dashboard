@@ -48,7 +48,6 @@ const Wrapper = styled.aside`
   .center {
     height: 52px;
     background: #fafafa;
-    /* border: 2px solid blue; */
     border-radius: 10px;
     width: 100%;
     display: grid;
