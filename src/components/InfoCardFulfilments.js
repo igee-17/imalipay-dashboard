@@ -6,7 +6,6 @@ import Animate from "./AnimationContainer";
 const InfoCardFulfilments = (props) => {
   const { id, image, name, phone, col1, col2, col3, col4, col5, border } =
     props;
-  console.log(border, id);
   return (
     <Wrapper className={border === id ? "bordered" : null}>
       {name && (
