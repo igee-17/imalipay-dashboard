@@ -6,7 +6,7 @@ export const Verified = ({ text }) => {
   console.log(text);
   return (
     <Wrapper>
-      <img src={check} alt="check image" className="image" />
+      <img src={check} alt="check icon" className="image" />
       <p>{text}</p>
     </Wrapper>
   );

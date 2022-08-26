@@ -2,8 +2,21 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { arrowLeft } from "../assets/icons";
+import { toast } from "react-toastify";
+import { closeModal } from "../features/dashboardSlice";
+import { useDispatch } from "react-redux";
+import { useNavigate } from "react-router";
 
 const ModalMobile = ({ header, infoOne, infoTwo }) => {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const connect = () => {
+    toast.success("Connection Success 🔐");
+    setTimeout(() => {
+      dispatch(closeModal());
+      navigate("/reconcilation");
+    }, 2000);
+  };
   return (
     <Wrapper>
       <Link to="/reconcilation/connect-account" className="top">
@@ -15,9 +28,9 @@ const ModalMobile = ({ header, infoOne, infoTwo }) => {
         <p>Connect your mobile account or bank statement to continue</p>
       </div>
       <div className="bottom">
-        <div className="item-one item">
+        <button onClick={connect} type="button" className="item-one item">
           <p>{`${infoOne || "Connect MPesa account"} `}</p>
-        </div>
+        </button>
         <Link to="/reconcilation/upload" className="item-two item">
           <p>{`${infoTwo || "Upload Mpesa statement"} `}</p>
         </Link>
@@ -73,6 +86,7 @@ const Wrapper = styled.div`
       display: flex;
       flex-direction: row;
       justify-content: center;
+      border: none;
       align-items: center;
       width: 431px;
       height: 70px;

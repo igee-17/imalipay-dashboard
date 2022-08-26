@@ -31,5 +31,3 @@ export const infoHeaderData = {
   colFour: "kyc status",
   colFive: "",
 };
-
-// export const infoCardData = {};

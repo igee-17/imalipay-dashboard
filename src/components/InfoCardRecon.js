@@ -1,11 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
-import InfoProfile from "./InfoProfile";
 
 const InfoCardRecon = (props) => {
-  const { id, image, name, phone, col1, col2, col3, col4, col5, border } =
-    props;
+  const { id, col1, col2, col3, col4, col5, border } = props;
   return (
     <Wrapper className={border === id ? "bordered" : null}>
       <div className="column-one column">

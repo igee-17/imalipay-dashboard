@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { xero } from "../assets/images";
 import { toast } from "react-toastify";
@@ -13,7 +12,7 @@ const ModalErpConnect = () => {
   const dispatch = useDispatch();
 
   const connectHandler = () => {
-    toast.success("Connect Success 🌌");
+    toast.success("Connection Success 🌌");
     setTimeout(() => {
       dispatch(closeModal());
       navigate("/reconcilation");

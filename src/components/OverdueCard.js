@@ -3,7 +3,7 @@ import { dollar } from "../assets/images";
 import { Status } from "../components";
 
 const OverdueCard = (props) => {
-  const { number, text, color, fontColor } = props;
+  const { number } = props;
   return (
     <Wrapper>
       <div className="item-left">

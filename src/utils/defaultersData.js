@@ -11,7 +11,6 @@ import {
   personThree,
   personFour,
   personFive,
-  successful,
 } from "../assets/images";
 import { InfoProfile, Verified } from "../components";
 
@@ -27,7 +26,6 @@ export const floatingDefaultersCardData = [
   {
     id: 2,
     image: defaultersShield,
-
     text: "Total default (NGN)",
     number: "890,100",
     icon: arrowUpRed,
@@ -57,7 +55,6 @@ export const infoDataDefaults = [
     image: personOne,
     name: "Olivia Rhye",
     phone: "+234 803 0000",
-    // col1: true,
 
     col1: (
       <InfoProfile name="Olivia Rhye" phone="+234 803 0000" image={personTwo} />

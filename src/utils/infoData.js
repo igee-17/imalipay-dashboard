@@ -4,7 +4,6 @@ import {
   personThree,
   personFour,
   personFive,
-  successful,
 } from "../assets/images";
 import { InfoProfile, Verified } from "../components";
 
@@ -14,7 +13,6 @@ export const infoData = [
     image: personOne,
     name: "Olivia Rhye",
     phone: "+234 803 0000",
-    // col1: true,
     col2: "NGN 34,600",
     col3: "Jan 6, 2022 • 09:21",
     col4: "00437E",
@@ -26,7 +24,6 @@ export const infoData = [
     image: personTwo,
     name: "Phoenix Baker",
     phone: "+234 803 0000",
-    // col1: <InfoProfile name="hello" phone="me" image={personTwo} />,
     col2: "NGN 27,800",
     col3: "Jan 6, 2022 • 09:21",
     col4: "60921V",
@@ -37,7 +34,6 @@ export const infoData = [
     image: personThree,
     name: "James Warri",
     phone: "+234 803 0000",
-    // col1: true,
     col2: "NGN 19,580",
     col3: "Jan 6, 2022 • 09:21",
     col4: "69942Z",
@@ -48,7 +44,6 @@ export const infoData = [
     image: personFour,
     name: "Demi Wilkinson",
     phone: "+234 803 0000",
-    // col1: true,
     col2: "NGN 46,700",
     col3: "Jan 6, 2022 • 09:21",
     col4: "23821Q",
@@ -59,7 +54,6 @@ export const infoData = [
     image: personFive,
     name: "Candice Wu",
     phone: "+234 803 0000",
-    // col1: true,
     col2: "NGN 51,830",
     col3: "Jan 6, 2022 • 09:21",
     col4: "80795W",

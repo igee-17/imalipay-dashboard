@@ -11,13 +11,6 @@ import {
 } from "../../components";
 import { profileRound } from "../../assets/images";
 
-const statusCard = {
-  number: "1/4",
-  text: "overdue",
-  color: "#FEF3F2",
-  fontColor: "#B42318",
-};
-
 const FulfillmentDetails = () => {
   return (
     <Wrapper>

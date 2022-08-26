@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const InfoCardDefaults = (props) => {
-  const { id, image, name, phone, col1, col2, col3, col4, col5 } = props;
+  const { id, col1, col2, col3, col4, col5 } = props;
   console.log(col1);
   return (
     <Wrapper className={id === 5 ? "bordered" : null}>
