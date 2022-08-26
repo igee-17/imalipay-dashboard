@@ -10,13 +10,11 @@ import {
   ModalAccount,
   ModalErpMain,
 } from "../../components";
-
 import {
   floatingReconCardData,
   infoConstReconData,
   infoHeaderReconData,
 } from "../../utils/reconcilationData";
-
 import {
   account,
   link,
@@ -24,12 +22,9 @@ import {
   filterAlt,
   arrowDownIos,
 } from "../../assets/icons";
-
 import { toggleModal } from "../../features/dashboardSlice";
-
-import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 
 const modalArray = [<ModalErpMain />, <ModalUpload />, <ModalAccount />];
 
