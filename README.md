@@ -11,14 +11,3 @@
 #### react-router-dom for routing
 
 #### redux for state management
-
-TO-D0:
-
-    add logout and profile to nav dropdown
-    replace 'Link' to only 'Alex'
-
-    ADD ERROR PAGE
-
-    SCREEN-CLEANING
-
-    REFACTOR-input.js
