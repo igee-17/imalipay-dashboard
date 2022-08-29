@@ -45,6 +45,14 @@ const Wrapper = styled.div`
   height: 388px;
   display: grid;
   grid-template-rows: 50px 1fr;
+  /* border: 2px solid red; */
+  @media (max-width: 992px) {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid purple; */
+  }
+  @media (max-width: 585px) {
+  }
   .top {
     display: flex;
     flex-direction: row;
@@ -52,12 +60,35 @@ const Wrapper = styled.div`
     gap: 8px;
     height: 32px;
     text-decoration: none;
+    @media (max-width: 992px) {
+      width: 100%;
+      height: auto;
+      /* border: 2px solid red; */
+    }
+    @media (max-width: 585px) {
+    }
+    img {
+      @media (max-width: 992px) {
+        width: 24px;
+        height: 24px;
+      }
+      @media (max-width: 585px) {
+        width: 20px;
+        height: 20px;
+      }
+    }
     p {
       font-weight: 400;
       font-size: 14px;
       line-height: 17px;
       letter-spacing: -0.03em;
       color: #222222;
+      @media (max-width: 992px) {
+        font-size: 12px;
+      }
+      @media (max-width: 585px) {
+        font-size: 10px;
+      }
     }
   }
 
@@ -68,6 +99,12 @@ const Wrapper = styled.div`
       line-height: 29px;
       color: #222222;
       margin: 0;
+      @media (max-width: 992px) {
+        font-size: 22px;
+      }
+      @media (max-width: 585px) {
+        font-size: 20px;
+      }
     }
     p {
       margin-top: 4px;
@@ -75,6 +112,12 @@ const Wrapper = styled.div`
       font-size: 14px;
       line-height: 17px;
       color: #808080;
+      @media (max-width: 992px) {
+        font-size: 12px;
+      }
+      @media (max-width: 585px) {
+        font-size: 10px;
+      }
     }
   }
   .bottom {
@@ -95,6 +138,15 @@ const Wrapper = styled.div`
       margin-bottom: 16px;
       transition: var(--transition-slow);
       text-decoration: none;
+      @media (max-width: 992px) {
+        max-width: 80%;
+        height: 50px;
+        /* border: 2px solid purple; */
+      }
+      @media (max-width: 585px) {
+        max-width: 100%;
+        width: 100%;
+      }
       p {
         text-align: center;
         width: auto;
@@ -103,6 +155,12 @@ const Wrapper = styled.div`
         font-size: 18px;
         line-height: 22px;
         color: #101010;
+        @media (max-width: 992px) {
+          font-size: 15px;
+        }
+        @media (max-width: 585px) {
+          font-size: 13px;
+        }
       }
       :hover {
         transition: var(--transition-slow);

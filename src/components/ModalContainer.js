@@ -28,13 +28,13 @@ const ModalContainer = ({ children }) => {
   );
 };
 
-const Wrapper = styled.div`
+const Wrapper = styled.section`
   /* STYLES FOR 'show-modal' IN 'SharedLayout' COMPONENT */
 
   opacity: 0;
-  width: 0;
-  height: 0;
-  position: absolute;
+  /* width: 0; */
+  /* height: 0; */
+  /* position: absolute; */
   z-index: -99999;
   display: none;
   top: 0;
@@ -47,8 +47,8 @@ const Wrapper = styled.div`
   .modal-center {
     display: flex;
     opacity: 0;
-    width: 0;
-    height: 0;
+    /* width: 0; */
+    /* height: 0; */
     background: #ffffff;
     box-shadow: 0px 4px 20px rgba(34, 34, 34, 0.05);
     border-radius: 8px;

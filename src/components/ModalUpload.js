@@ -60,6 +60,11 @@ const Wrapper = styled.div`
   box-shadow: 0px 4px 20px rgba(34, 34, 34, 0.05);
   border-radius: 8px;
   padding: 24px 24px;
+  @media (max-width: 992px) {
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+  }
   .top {
     display: flex;
     flex-direction: row;
@@ -70,12 +75,26 @@ const Wrapper = styled.div`
     background: transparent;
     border: none;
     cursor: pointer;
+    img {
+      @media (max-width: 992px) {
+        width: 22px;
+        height: 22px;
+      }
+      @media (max-width: 585px) {
+      }
+    }
     p {
       font-weight: 400;
       font-size: 14px;
       line-height: 17px;
       letter-spacing: -0.03em;
       color: #222222;
+      @media (max-width: 992px) {
+        font-size: 12px;
+      }
+      @media (max-width: 585px) {
+        font-size: 11px;
+      }
     }
   }
   .middle {
@@ -92,16 +111,40 @@ const Wrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media (max-width: 992px) {
+      width: 100%;
+      height: 120px;
+    }
+    @media (max-width: 585px) {
+      margin: 38px 0 40px;
+      height: 110px;
+    }
+    img {
+      @media (max-width: 992px) {
+        width: 55px;
+        height: 55px;
+      }
+      @media (max-width: 585px) {
+        width: 45px;
+        height: 45px;
+      }
+    }
     p {
       font-weight: 400;
       font-size: 14px;
       line-height: 17px;
       color: #808080;
+      @media (max-width: 992px) {
+        font-size: 12px;
+      }
+      @media (max-width: 585px) {
+        font-size: 10px;
+      }
     }
   }
   .file-input {
     height: 100%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     position: absolute;
     width: 100%;
     opacity: 0;
@@ -118,6 +161,15 @@ const Wrapper = styled.div`
     border-radius: 10px;
     transition: var(--transition-slow);
     border: none;
+    @media (max-width: 992px) {
+      padding: 0px;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 50px;
+    }
+    @media (max-width: 585px) {
+    }
     :hover {
       transition: var(--transition-slow);
       cursor: pointer;

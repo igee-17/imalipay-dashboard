@@ -137,10 +137,8 @@ const Wrapper = styled.section`
     justify-content: space-between;
     @media (max-width: 585px) {
       height: auto;
-      width: 75%;
       align-items: flex-start;
       margin-bottom: 34px;
-      width: 90%;
       padding-left: 30px;
     }
     .left {

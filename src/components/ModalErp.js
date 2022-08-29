@@ -27,17 +27,33 @@ const Wrapper = styled.div`
   box-shadow: 0px 4px 20px rgba(34, 34, 34, 0.05);
   border-radius: 8px;
   font-weight: 500;
+  @media (max-width: 992px) {
+    width: 100%;
+    height: 50%;
+  }
+  @media (max-width: 585px) {
+  }
   h2 {
     font-size: 24px;
     line-height: 29px;
     color: #222222;
     margin-bottom: 32px;
+    @media (max-width: 992px) {
+      font-size: 20px;
+    }
+    @media (max-width: 585px) {
+    }
   }
   .text {
     font-size: 14px;
     line-height: 17px;
     color: #808080;
     margin-bottom: 8px;
+    @media (max-width: 992px) {
+      font-size: 12px;
+    }
+    @media (max-width: 585px) {
+    }
   }
   .erp {
     border: 1px solid #e5e5e5;
@@ -47,6 +63,13 @@ const Wrapper = styled.div`
     border-radius: 10px;
     padding: 16px 16px;
     margin-bottom: 24px;
+    @media (max-width: 992px) {
+      width: 100%;
+      height: 52px;
+      font-size: 14px;
+    }
+    @media (max-width: 585px) {
+    }
   }
   .a {
     text-decoration: none;
@@ -66,6 +89,13 @@ const Wrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    @media (max-width: 992px) {
+      width: 100%;
+      height: 52px;
+      font-size: 14px;
+    }
+    @media (max-width: 585px) {
+    }
     :hover {
       transition: var(--transition-slow);
       cursor: pointer;

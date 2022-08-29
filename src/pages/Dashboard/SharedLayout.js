@@ -72,9 +72,21 @@ const Wrapper = styled.section`
     width: 100%;
     height: 100vh;
     .modal-center {
+      position: relative;
       opacity: 1;
       width: 480px;
       height: auto;
+      @media (max-width: 992px) {
+        width: 80%;
+        /* padding: 0; */
+        /* width: 80vw; */
+        height: 50%;
+        /* border: 2px solid green; */
+        /* justify-content: center; */
+        /* align-items: center; */
+      }
+      @media (max-width: 585px) {
+      }
     }
   }
   /* 'active' class below is for smallSidebar */
