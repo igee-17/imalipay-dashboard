@@ -78,17 +78,14 @@ const Wrapper = styled.section`
       height: auto;
       @media (max-width: 992px) {
         width: 80%;
-        /* padding: 0; */
-        /* width: 80vw; */
         height: 50%;
-        /* border: 2px solid green; */
-        /* justify-content: center; */
-        /* align-items: center; */
       }
       @media (max-width: 585px) {
+        height: 310px;
       }
     }
   }
+
   /* 'active' class below is for smallSidebar */
   .active {
     transition: var(--transition-slow);
