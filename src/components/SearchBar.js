@@ -32,6 +32,10 @@ const Wrapper = styled.section`
     width: 159px;
     height: 45px;
   } */
+  @media (max-width: 585px) {
+    padding-left: 30px;
+  }
+  /* border: 2px solid red; */
   .input-container {
     align-items: center;
 
@@ -49,8 +53,8 @@ const Wrapper = styled.section`
       height: 46px;
     }
     @media (max-width: 585px) {
-      width: 300px;
-      height: 43px;
+      width: 75%;
+      height: 40px;
     }
   }
   img {
@@ -100,8 +104,8 @@ const Wrapper = styled.section`
       height: 46px;
     }
     @media (max-width: 585px) {
-      width: 70px;
-      height: 43px;
+      width: 15%;
+      height: 40px;
     }
     p {
       font-style: normal;
