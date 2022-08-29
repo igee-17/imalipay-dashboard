@@ -37,7 +37,7 @@ const Wrapper = styled.aside`
     /* width: 85%; */
     /* border: 2px solid blue; */
     max-width: 85%;
-
+    /* align-items: center; */
     height: 192px;
     padding: 24px 24px;
   }

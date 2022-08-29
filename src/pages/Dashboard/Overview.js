@@ -71,6 +71,8 @@ const Wrapper = styled.section`
       display: flex;
       flex-direction: column;
       gap: 20px;
+      width: 85%;
+      border: 2px solid red;
     }
   }
   .customers-info {
