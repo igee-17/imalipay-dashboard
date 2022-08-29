@@ -102,7 +102,7 @@ const Wrapper = styled.section`
     margin: 130px 0px;
   }
   @media (max-width: 585px) {
-    padding: 0 5px;
+    padding: 0 8px;
     /* height: 310px; */
   }
 
