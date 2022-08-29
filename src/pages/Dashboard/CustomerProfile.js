@@ -99,9 +99,10 @@ const Wrapper = styled.section`
   margin-top: 141px;
   @media (max-width: 992px) {
     width: 80vw;
-    margin: 130px 20px;
+    margin: 130px 0px;
   }
   @media (max-width: 585px) {
+    padding: 0 5px;
     /* height: 310px; */
   }
 
@@ -222,7 +223,12 @@ const Wrapper = styled.section`
         padding: 0 30px;
       }
       @media (max-width: 585px) {
-        padding: 0px 10px;
+        padding: 0px 3px;
+      }
+    }
+    .left {
+      @media (max-width: 585px) {
+        width: 48%;
       }
     }
     .right {
@@ -234,7 +240,8 @@ const Wrapper = styled.section`
         padding: 33px 10px;
       }
       @media (max-width: 585px) {
-        padding: 33px 5px;
+        width: 52%;
+        padding: 53px 5px;
       }
       h2 {
         margin: 0;

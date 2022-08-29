@@ -98,7 +98,7 @@ const Wrapper = styled.section`
       font-size: 11px;
     }
     @media (max-width: 585px) {
-      font-size: 8.5px;
+      font-size: 8px;
     }
   }
   h3 {
