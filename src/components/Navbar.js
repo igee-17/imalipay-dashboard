@@ -107,11 +107,9 @@ $phone: 480px;
     /* border: 2px solid red; */
   }
   .nav-center {
-    /* border: 2px solid blue; */
     display: grid;
     width: calc(100vw - 403px);
     justify-content: space-between;
-    /* padding: 0px 10px; */
     grid-template-columns: auto auto;
     align-items: center;
     @media (max-width: 992px) {

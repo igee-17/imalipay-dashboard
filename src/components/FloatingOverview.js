@@ -34,7 +34,10 @@ const Wrapper = styled.aside`
     gap: 16px;
   }
   @media (max-width: 585px) {
-    width: 85%;
+    /* width: 85%; */
+    /* border: 2px solid blue; */
+    max-width: 85%;
+
     height: 192px;
     padding: 24px 24px;
   }
@@ -51,7 +54,6 @@ const Wrapper = styled.aside`
     padding: 0px;
     gap: 8px;
     @media (max-width: 992px) {
-      /* border: 2px solid green; */
       width: auto;
       gap: 6px;
     }
@@ -61,7 +63,6 @@ const Wrapper = styled.aside`
     width: 48px;
     border-radius: 28px;
     @media (max-width: 992px) {
-      /* border: 2px solid red; */
       height: 45px;
       width: 45px;
     }

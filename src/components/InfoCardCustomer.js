@@ -33,7 +33,6 @@ const InfoCardCustomer = (props) => {
 };
 
 const Wrapper = styled.aside`
-  /* border: 1px solid #eaecf0; */
   display: grid;
   grid-template-columns: 171px 297px 218px 171px 110px;
   width: 100%;
@@ -66,7 +65,6 @@ const Wrapper = styled.aside`
   }
   .column {
     border-bottom: 1px solid #eaecf0;
-    /* border: 2px solid  */
     height: 100%;
     margin: 0;
     display: flex;
@@ -152,11 +150,8 @@ const Wrapper = styled.aside`
   }
   .column-five {
     padding-left: 0px;
-    /* padding-right: 24px; */
-    /* width: auto; */
     align-items: center;
     @media (max-width: 992px) {
-      /* border: 2px solid blue; */
       justify-content: center;
     }
   }

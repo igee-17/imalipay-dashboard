@@ -66,9 +66,6 @@ const Wrapper = styled.aside`
     justify-content: space-between;
     align-items: flex-start;
     padding-right: 24px;
-    /* gap: 8px; */
-    /* border: 2px solid blue; */
-    /* width: 279px; */
     width: 100%;
     height: 48px;
     @media (max-width: 992px) {
@@ -93,9 +90,7 @@ const Wrapper = styled.aside`
     align-items: flex-start;
     padding: 0px;
     gap: 8px;
-    /* width: 279px; */
     width: 100%;
-    /* border: 2px solid green; */
     height: 72px;
     @media (max-width: 992px) {
       width: 90%;
@@ -109,7 +104,6 @@ const Wrapper = styled.aside`
     color: #667085;
     @media (max-width: 1025px) {
       font-size: 11px;
-      /* border: 2px solid purple; */
       width: 100%;
     }
     @media (max-width: 734px) {
@@ -124,9 +118,7 @@ const Wrapper = styled.aside`
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
-    /* padding-right: 24px; */
     height: 44px;
-    /* border: 2px solid yellow; */
     width: 100%;
     @media (max-width: 992px) {
       padding-right: 0;

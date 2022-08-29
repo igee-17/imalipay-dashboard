@@ -70,7 +70,6 @@ const Wrapper = styled.aside`
       width: 170px;
     }
     @media (max-width: 585px) {
-      /* border: 2px solid green; */
       padding-left: 40px;
       width: 139px;
     }
@@ -130,7 +129,6 @@ const Wrapper = styled.aside`
     }
   }
   .column-five {
-    /* border: 2px solid red; */
     justify-content: flex-start;
     @media (max-width: 585px) {
       padding-left: 40px;
@@ -147,7 +145,6 @@ const Wrapper = styled.aside`
       background: #ecfdf3;
       border-radius: 16px;
       @media (max-width: 992px) {
-        /* border: 2px solid blue; */
         width: 70px;
         height: 13px;
       }
@@ -162,10 +159,6 @@ const Wrapper = styled.aside`
         color: #027a48;
         @media (max-width: 992px) {
           font-size: 10px;
-        }
-        @media (max-width: 585px) {
-          /* width: 159px;
-      height: 45px; */
         }
       }
     }
