@@ -71,8 +71,9 @@ const Wrapper = styled.section`
       display: flex;
       flex-direction: column;
       gap: 20px;
-      width: 85%;
-      border: 2px solid red;
+      width: 80%;
+      /* border: 2px solid red; */
+      align-items: center;
     }
   }
   .customers-info {
