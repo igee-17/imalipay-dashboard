@@ -34,21 +34,29 @@ const Wrapper = styled.section`
   opacity: 0;
   /* width: 0; */
   /* height: 0; */
-  /* position: absolute; */
+  position: absolute;
   z-index: -99999;
-  display: none;
+  /* display: none; */
+  display: flex;
+  justify-self: center;
+  align-self: center;
   top: 0;
   left: 0;
+  /* right: 0; */
+  bottom: 0;
   justify-content: center;
   align-items: center;
   margin: 0;
   background: rgba(0, 0, 0, 0.7);
   z-index: 99999;
+  transition: var(--transition-slow);
   .modal-center {
     display: flex;
+    transform: translateY(50%);
+    transition: var(--transition-slow);
     opacity: 0;
-    /* width: 0; */
-    /* height: 0; */
+    width: 0;
+    height: 0;
     background: #ffffff;
     box-shadow: 0px 4px 20px rgba(34, 34, 34, 0.05);
     border-radius: 8px;

@@ -71,9 +71,12 @@ const Wrapper = styled.section`
     opacity: 1;
     width: 100%;
     height: 100vh;
+    transition: var(--transition-slow);
     .modal-center {
       position: relative;
       opacity: 1;
+      transform: translateY(0%);
+      transition: var(--transition-slow);
       width: 480px;
       height: auto;
       @media (max-width: 992px) {
