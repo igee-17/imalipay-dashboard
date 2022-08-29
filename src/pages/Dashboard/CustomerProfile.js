@@ -97,6 +97,13 @@ const Wrapper = styled.section`
   min-width: 403px;
   width: calc(100vw - 403px);
   margin-top: 141px;
+  @media (max-width: 992px) {
+    width: 80vw;
+    margin: 120px 0px;
+  }
+  @media (max-width: 585px) {
+    /* height: 310px; */
+  }
 
   .header {
     margin-bottom: 32px;
@@ -108,12 +115,24 @@ const Wrapper = styled.section`
       line-height: 17px;
       color: #101010;
       text-decoration: none;
+      @media (max-width: 992px) {
+        font-size: 12px;
+      }
+      @media (max-width: 585px) {
+        font-size: 10px;
+      }
     }
     span {
       font-weight: 400;
       font-size: 14px;
       line-height: 17px;
       color: #707070;
+      @media (max-width: 992px) {
+        font-size: 12px;
+      }
+      @media (max-width: 585px) {
+        font-size: 10px;
+      }
     }
   }
   .title {
@@ -122,6 +141,12 @@ const Wrapper = styled.section`
     font-size: 24px;
     line-height: 29px;
     color: #222222;
+    @media (max-width: 992px) {
+      font-size: 22px;
+    }
+    @media (max-width: 585px) {
+      font-size: 20px;
+    }
   }
   .profile {
     display: flex;
@@ -132,6 +157,16 @@ const Wrapper = styled.section`
     width: 129px;
     height: 56px;
     margin: 24px 0 37px;
+    img {
+      @media (max-width: 992px) {
+        height: 40px;
+        width: 40px;
+      }
+      @media (max-width: 585px) {
+        height: 35px;
+        width: 35px;
+      }
+    }
 
     h3 {
       font-style: normal;
@@ -140,6 +175,12 @@ const Wrapper = styled.section`
       line-height: 20px;
       color: #344054;
       margin: 0;
+      @media (max-width: 992px) {
+        font-size: 12px;
+      }
+      @media (max-width: 585px) {
+        font-size: 10px;
+      }
     }
     p {
       font-style: normal;
@@ -147,6 +188,12 @@ const Wrapper = styled.section`
       font-size: 12px;
       line-height: 18px;
       color: #667085;
+      @media (max-width: 992px) {
+        font-size: 10px;
+      }
+      @media (max-width: 585px) {
+        font-size: 8px;
+      }
     }
   }
   .customers-info {
@@ -159,27 +206,59 @@ const Wrapper = styled.section`
     display: flex;
     padding: 48px 0 48px;
     margin-bottom: 96px;
+    @media (max-width: 992px) {
+      padding: 28px 0 28px;
+      height: 100%;
+    }
+    @media (max-width: 585px) {
+      padding: 18px 0 18px;
+      /* font-size: 8px; */
+    }
     .item {
       padding: 0px 48px;
       height: 100%;
       width: 50%;
+      @media (max-width: 992px) {
+        padding: 0 30px;
+      }
+      @media (max-width: 585px) {
+        padding: 0px 10px;
+      }
     }
     .right {
       display: flex;
       flex-direction: column;
       padding-top: 53px;
       border-left: 1px solid #e5e5e5;
+      @media (max-width: 992px) {
+        padding: 33px 10px;
+      }
+      @media (max-width: 585px) {
+        padding: 33px 5px;
+      }
       h2 {
         margin: 0;
         font-weight: 500;
         font-size: 14px;
         line-height: 17px;
         color: #808080;
+        @media (max-width: 992px) {
+          font-size: 12px;
+        }
+        @media (max-width: 585px) {
+          font-size: 10px;
+        }
       }
     }
   }
   .text-header {
     margin-bottom: 16px;
+    @media (max-width: 992px) {
+      /* font-size: 12px; */
+    }
+    @media (max-width: 585px) {
+      /* font-size: 10px; */
+    }
   }
 
   .address {
@@ -192,6 +271,15 @@ const Wrapper = styled.section`
       padding-left: 21.53px;
       width: 100%;
       height: 100%;
+      /* border: 2px solid brown; */
+      @media (max-width: 992px) {
+        font-size: 11px;
+        padding-left: 15px;
+      }
+      @media (max-width: 585px) {
+        padding-left: 10px;
+        font-size: 10px;
+      }
     }
   }
 `;

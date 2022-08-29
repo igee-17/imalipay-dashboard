@@ -40,7 +40,7 @@ const Wrapper = styled.section`
   display: flex;
   justify-self: center;
   align-self: center;
-  top: 0;
+  /* top: 0; */
   left: 0;
   /* right: 0; */
   bottom: 0;
