@@ -145,7 +145,7 @@ const Wrapper = styled.section`
   margin-top: 141px;
   @media (max-width: 992px) {
     width: 80vw;
-    margin: 120px 0px;
+    margin: 120px 20px;
   }
   @media (max-width: 585px) {
     /* height: 310px; */
