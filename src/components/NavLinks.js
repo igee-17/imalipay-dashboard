@@ -1,10 +1,18 @@
 import { navLinks } from "../utils/nav-links";
 import NavLink from "./NavLink";
 import styled from "styled-components";
+import { closeSidebar } from "../features/dashboardSlice";
+import { useDispatch } from "react-redux";
 
 const NavLinks = () => {
+  const dispatch = useDispatch();
+
   return (
-    <Wrapper>
+    <Wrapper
+      onClick={() => {
+        dispatch(closeSidebar());
+      }}
+    >
       {navLinks.map((link) => {
         return <NavLink key={link.id} {...link} />;
       })}

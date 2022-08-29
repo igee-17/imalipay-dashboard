@@ -99,6 +99,15 @@ const Wrapper = styled.section`
   width: calc(100vw - 403px);
   max-width: 80vw;
   margin-top: 107px;
+  @media (max-width: 992px) {
+    width: 80vw;
+    margin: 120px 0px;
+  }
+  @media (max-width: 585px) {
+    display: flex;
+    width: 85vw;
+    flex-direction: column;
+  }
 
   .profile {
     h3 {
@@ -111,14 +120,25 @@ const Wrapper = styled.section`
     font-weight: 500;
     line-height: 29px;
     margin-bottom: 36px;
+    @media (max-width: 992px) {
+      font-size: 20px;
+    }
   }
   .features {
+    /* border: 2px solid blue; */
     height: 42px;
     width: 100%;
     margin-bottom: 24px;
     display: flex;
     justify-content: space-between;
+    @media (max-width: 585px) {
+      height: auto;
+      /* width: 75%; */
+      align-items: flex-start;
+      margin-bottom: 34px;
+    }
     .left {
+      /* border: 2px solid red; */
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -130,6 +150,19 @@ const Wrapper = styled.section`
       background: #eaecf0;
       border-radius: 8px;
       transition: var(--transition-slow);
+      @media (max-width: 992px) {
+        width: 20%;
+        gap: 0px;
+        justify-content: space-between;
+        padding: 0px;
+        align-items: center;
+      }
+      @media (max-width: 585px) {
+        flex-direction: row-inverse;
+        padding: 5px 10px;
+        width: 120px;
+        height: 32px;
+      }
       :hover {
         box-shadow: 0px 1px 4px rgba(16, 24, 40, 0.45);
 
@@ -139,6 +172,15 @@ const Wrapper = styled.section`
       img {
         width: 24px;
         height: 24px;
+        @media (max-width: 992px) {
+          width: 30px;
+          height: 30px;
+        }
+        @media (max-width: 585px) {
+          width: 20px;
+          height: 20px;
+          /* border: 2px solid green; */
+        }
       }
       p {
         font-style: normal;
@@ -147,12 +189,32 @@ const Wrapper = styled.section`
         line-height: 17px;
         text-align: center;
         color: #101010;
+        @media (max-width: 992px) {
+          font-size: 12px;
+        }
+        @media (max-width: 585px) {
+          font-size: 11px;
+        }
       }
     }
     .right {
+      /* border: 2px solid purple; */
       height: 100%;
       width: auto;
       display: flex;
+      @media (max-width: 992px) {
+        width: 70%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+      }
+      @media (max-width: 585px) {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: flex-end;
+        gap: 20px;
+      }
     }
     .item {
       width: 151px;
@@ -168,15 +230,33 @@ const Wrapper = styled.section`
       height: 42px;
       border-radius: 8px;
       transition: var(--transition-slow);
+      @media (max-width: 992px) {
+        padding: 20px 10px;
+        width: auto;
+      }
+      @media (max-width: 585px) {
+        padding: 10px 10px;
+        height: 32px;
+        justify-content: flex-start;
+      }
 
       :hover {
         box-shadow: 0px 1px 4px rgba(16, 24, 40, 0.45);
         transition: var(--transition-slow);
         cursor: pointer;
       }
-      .image {
+      img {
         width: 24px;
         height: 24px;
+        @media (max-width: 992px) {
+          width: 30px;
+          height: 30px;
+        }
+        @media (max-width: 585px) {
+          width: 24px;
+          height: 24px;
+          /* border: 2px solid green; */
+        }
       }
       p {
         font-style: normal;
@@ -184,11 +264,22 @@ const Wrapper = styled.section`
         font-size: 14px;
         line-height: 17px;
         color: #ffffff;
+        @media (max-width: 992px) {
+          font-size: 9px;
+        }
+        @media (max-width: 585px) {
+        }
       }
     }
     .erp {
       background: #ffbd2e;
       width: 151px;
+      @media (max-width: 992px) {
+        width: auto;
+      }
+      @media (max-width: 585px) {
+        width: 130px;
+      }
       p {
         color: #101010;
       }
@@ -197,10 +288,23 @@ const Wrapper = styled.section`
       background: #80b539;
       margin: 0 16px;
       width: 145px;
+      @media (max-width: 992px) {
+        width: auto;
+      }
+      @media (max-width: 585px) {
+        width: 130px;
+        margin: 0;
+      }
     }
     .account {
       background: #222222;
       width: 181px;
+      @media (max-width: 992px) {
+        width: auto;
+      }
+      @media (max-width: 585px) {
+        width: 130px;
+      }
     }
   }
   .cards-container {
@@ -210,11 +314,35 @@ const Wrapper = styled.section`
     display: flex;
     justify-content: space-between;
     gap: 4px;
+    /* border: 2px solid red; */
+    @media (max-width: 992px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 8px;
+    }
+    /* 585px */
+    @media (max-width: 784px) {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  .card-item:hover {
+    box-shadow: 0px 1px 4px rgba(16, 24, 40, 0.1);
+    transition: var(--transition-slow);
   }
   .customers-info {
     margin-bottom: 24px;
     border-radius: 10px;
     width: 100%;
+    @media (max-width: 1330px) {
+      overflow-x: scroll;
+      overflow-y: hidden;
+    }
+    @media (max-width: 585px) {
+      height: auto;
+      margin-bottom: 0px;
+    }
   }
   .bordered {
     border-bottom-left-radius: 10px;

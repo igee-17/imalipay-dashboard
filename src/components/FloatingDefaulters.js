@@ -6,8 +6,8 @@ const FloatingDefaulters = ({ text, number, info, image, icon }) => {
   return (
     <Wrapper className="card-item">
       <div className="col-one">
-        <img src={image} alt={text} />
-        <img src={moreVertical} alt="vertical-bar" />
+        <img src={image} alt={text} className="left-image" />
+        <img src={moreVertical} alt="vertical-bar" className="right-image" />
       </div>
       <div className="col-two">
         <p className="text">{text}</p>
@@ -29,15 +29,33 @@ const Wrapper = styled.aside`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 24px;
+  padding: 0px 24px;
+  justify-content: center;
   gap: 24px;
   width: 307px;
   height: 192px;
   background: #ffffff;
   border: 1px solid #eaecf0;
   box-shadow: 0px 1px 12px rgba(16, 24, 40, 0.1);
-
   border-radius: 8px;
+  box-sizing: border-box;
+
+  @media (max-width: 1090px) {
+    padding: 0px 1%;
+  }
+  @media (max-width: 992px) {
+    padding: 0px 5%;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 156px;
+    gap: 12px;
+  }
+  @media (max-width: 585px) {
+    width: 75%;
+    height: 190px;
+    gap: 24px;
+  }
   :hover {
     box-shadow: 0px 1px 4px rgba(16, 24, 40, 0.1);
     transition: var(--transition-slow);
@@ -48,9 +66,25 @@ const Wrapper = styled.aside`
     justify-content: space-between;
     align-items: flex-start;
     padding-right: 24px;
-    gap: 8px;
-    width: 279px;
+    /* gap: 8px; */
+    /* border: 2px solid blue; */
+    /* width: 279px; */
+    width: 100%;
     height: 48px;
+    @media (max-width: 992px) {
+      padding-right: 0px;
+      width: 90%;
+    }
+    .left-image {
+      @media (max-width: 992px) {
+        width: 45px;
+        height: 45px;
+      }
+      @media (max-width: 585px) {
+        width: 50px;
+        height: 50px;
+      }
+    }
   }
   .col-two {
     display: flex;
@@ -59,8 +93,13 @@ const Wrapper = styled.aside`
     align-items: flex-start;
     padding: 0px;
     gap: 8px;
-    width: 279px;
+    /* width: 279px; */
+    width: 100%;
+    /* border: 2px solid green; */
     height: 72px;
+    @media (max-width: 992px) {
+      width: 90%;
+    }
   }
   .text {
     font-style: normal;
@@ -68,14 +107,31 @@ const Wrapper = styled.aside`
     font-size: 14px;
     line-height: 20px;
     color: #667085;
+    @media (max-width: 1025px) {
+      font-size: 11px;
+      /* border: 2px solid purple; */
+      width: 100%;
+    }
+    @media (max-width: 734px) {
+      font-size: 9px;
+    }
+    @media (max-width: 585px) {
+      font-size: 14px;
+    }
   }
   .col-two-span {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
-    padding-right: 24px;
+    /* padding-right: 24px; */
     height: 44px;
+    /* border: 2px solid yellow; */
+    width: 100%;
+    @media (max-width: 992px) {
+      padding-right: 0;
+      width: 100%;
+    }
   }
   .colored {
     display: flex;
@@ -88,9 +144,29 @@ const Wrapper = styled.aside`
     height: 24px;
     background: #fef3f2;
     border-radius: 16px;
+    @media (max-width: 992px) {
+      width: 50px;
+    }
+    @media (max-width: 734px) {
+      width: 45px;
+    }
+    @media (max-width: 585px) {
+      width: 62px;
+    }
     img {
       width: 12px;
       height: 12px;
+      @media (max-width: 992px) {
+        width: 11px;
+        height: 11px;
+      }
+      @media (max-width: 734px) {
+        width: 10px;
+        height: 10px;
+      }
+      @media (max-width: 585px) {
+        width: 12px;
+      }
     }
     p {
       font-style: normal;
@@ -99,10 +175,28 @@ const Wrapper = styled.aside`
       line-height: 20px;
       text-align: center;
       color: #027a48;
+      @media (max-width: 992px) {
+        font-size: 12px;
+      }
+      @media (max-width: 734px) {
+        font-size: 10px;
+      }
+      @media (max-width: 585px) {
+        font-size: 14px;
+      }
     }
   }
   .number {
     margin: 0;
+    @media (max-width: 992px) {
+      font-size: 25px;
+    }
+    @media (max-width: 734px) {
+      font-size: 20px;
+    }
+    @media (max-width: 585px) {
+      font-size: 28px;
+    }
   }
 `;
 

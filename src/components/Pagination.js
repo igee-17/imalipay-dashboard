@@ -32,6 +32,10 @@ const Pagination = () => {
 };
 
 const Wrapper = styled.footer`
+  /* @media (max-width: 992px) {
+    postion: fixed;
+    border: 2px solid blue;
+  } */
   height: 40px;
   width: 100%;
   margin-top: 24px;

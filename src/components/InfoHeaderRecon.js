@@ -28,15 +28,33 @@ const Wrapper = styled.header`
   width: 100%;
   height: 52px;
   display: grid;
-  grid-template-columns: 220px 255px 171px 171px auto;
+  grid-template-columns: 220px 255px 171px 171px 120px;
   background: #f3f3f3;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  @media (max-width: 1210px) {
+    width: fit-content;
+  }
+  @media (max-width: 992px) {
+    grid-template-columns: 227px 121px 185px 131px 120px;
+  }
+  @media (max-width: 585px) {
+    height: 60px;
+    grid-template-columns: 130px 160px 118px 101px 100px;
+  }
   input {
     height: 18px;
     width: 18px;
     background: #d0d0d0;
     margin-right: 16px;
+    @media (max-width: 992px) {
+      height: 16px;
+      width: 16px;
+    }
+    @media (max-width: 585px) {
+      height: 14px;
+      width: 14px;
+    }
   }
 
   .column {
@@ -44,6 +62,12 @@ const Wrapper = styled.header`
     margin: 0;
     display: flex;
     align-items: center;
+    @media (max-width: 992px) {
+      padding-left: 20px;
+    }
+    @media (max-width: 585px) {
+      padding-left: 10px;
+    }
     h2 {
       margin: 0;
       font-style: normal;
@@ -52,10 +76,22 @@ const Wrapper = styled.header`
       line-height: 16px;
       text-transform: uppercase;
       color: #707070;
+      @media (max-width: 992px) {
+        font-size: 11px;
+      }
+      @media (max-width: 585px) {
+        font-size: 10px;
+      }
     }
   }
   .column-one {
     padding-left: 24px;
+    @media (max-width: 992px) {
+      padding-left: 22px;
+    }
+    @media (max-width: 585px) {
+      padding-left: 20px;
+    }
   }
 `;
 

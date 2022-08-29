@@ -11,3 +11,7 @@
 #### react-router-dom for routing
 
 #### redux for state management
+
+
+to do:
+    fix small side bar, close sidebar

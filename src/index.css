@@ -28,4 +28,15 @@ body {
   --transition-slow: all 0.35s ease-out 0s;
 
   --box-shadow-light: 0px 1px 4px rgba(16, 24, 40, 0.1);
+
+  /* --tablet: 992px;
+  --phone: 480px; */
 }
+
+/* media queries */
+/*
+$desktop:1200px;
+$laptop: 1024px;
+$tablet: 768px;
+$phone: 480px; 
+*/

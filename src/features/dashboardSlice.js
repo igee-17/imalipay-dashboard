@@ -4,6 +4,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   index: 0,
   isModal: false,
+  isSidebar: true,
 };
 
 const dashboardSlice = createSlice({
@@ -11,16 +12,22 @@ const dashboardSlice = createSlice({
   initialState,
   reducers: {
     toggleModal: (state, actions) => {
-      // const { index } = state;
       state.index = actions.payload;
       state.isModal = true;
     },
     closeModal: (state) => {
       state.isModal = false;
     },
+    openSidebar: (state) => {
+      state.isSidebar = true;
+    },
+    closeSidebar: (state) => {
+      state.isSidebar = false;
+    },
   },
 });
 
-export const { toggleModal, closeModal } = dashboardSlice.actions;
+export const { toggleModal, closeModal, openSidebar, closeSidebar } =
+  dashboardSlice.actions;
 
 export default dashboardSlice.reducer;

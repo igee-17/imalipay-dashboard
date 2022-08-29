@@ -34,14 +34,27 @@ const Overview = () => {
 const Wrapper = styled.section`
   min-width: 403px;
   width: calc(100vw - 403px);
-  max-width: 80vw;
   margin-top: 141px;
-
+  @media (max-width: 992px) {
+    width: 90vw;
+    margin: 120px 0px;
+  }
+  @media (max-width: 585px) {
+    display: flex;
+    width: 85vw;
+    flex-direction: column;
+  }
   .heading {
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
     margin-bottom: 36px;
+    @media (max-width: 992px) {
+      font-size: 20px;
+    }
+    @media (max-width: 585px) {
+      width: 85%;
+    }
   }
   .cards-container {
     margin-bottom: 48px;
@@ -50,13 +63,25 @@ const Wrapper = styled.section`
     display: flex;
     justify-content: space-between;
     gap: 4px;
+    @media (max-width: 992px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media (max-width: 585px) {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
   }
   .customers-info {
     border-radius: 10px;
     width: 100%;
+    @media (max-width: 1210px) {
+      overflow-x: scroll;
+      overflow-y: hidden;
+    }
   }
   .bordered {
-    /* border: 2px solid red; */
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }

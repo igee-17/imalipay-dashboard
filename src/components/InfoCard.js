@@ -37,12 +37,26 @@ const Wrapper = styled.aside`
   height: 72px;
   display: flex;
   background: #ffffff;
+  @media (max-width: 1210px) {
+    width: fit-content;
+  }
+  @media (max-width: 585px) {
+    height: 60px;
+  }
   input {
     width: 20px;
     height: 20px;
     background: #ffffff;
     border: 1px solid #d0d5dd;
     border-radius: 6px;
+    @media (max-width: 992px) {
+      width: 18px;
+      height: 18px;
+    }
+    @media (max-width: 585px) {
+      width: 16px;
+      height: 16px;
+    }
   }
   .column {
     height: 100%;
@@ -51,6 +65,15 @@ const Wrapper = styled.aside`
     align-items: center;
     width: 210px;
     padding-left: 65px;
+    @media (max-width: 992px) {
+      padding-left: 55px;
+      width: 170px;
+    }
+    @media (max-width: 585px) {
+      /* border: 2px solid green; */
+      padding-left: 40px;
+      width: 139px;
+    }
 
     h2 {
       margin: 0;
@@ -62,6 +85,12 @@ const Wrapper = styled.aside`
       text-transform: uppercase;
 
       color: #707070;
+      @media (max-width: 992px) {
+        font-size: 10px;
+      }
+      @media (max-width: 585px) {
+        font-size: 9px;
+      }
     }
     .profile {
       display: flex;
@@ -73,12 +102,18 @@ const Wrapper = styled.aside`
         font-weight: 400;
         line-height: 20px;
         color: #101828;
+        @media (max-width: 992px) {
+          font-size: 12px;
+        }
       }
       p {
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
         color: #667085;
+        @media (max-width: 992px) {
+          font-size: 12px;
+        }
       }
     }
     img {
@@ -90,8 +125,16 @@ const Wrapper = styled.aside`
   .column-one {
     gap: 12px;
     padding-left: 24px;
+    @media (max-width: 992px) {
+      width: 190px;
+    }
   }
   .column-five {
+    /* border: 2px solid red; */
+    justify-content: flex-start;
+    @media (max-width: 585px) {
+      padding-left: 40px;
+    }
     .text-center {
       display: flex;
       flex-direction: row;
@@ -103,6 +146,12 @@ const Wrapper = styled.aside`
       height: 22px;
       background: #ecfdf3;
       border-radius: 16px;
+      @media (max-width: 992px) {
+        /* border: 2px solid blue; */
+        width: 70px;
+        height: 13px;
+      }
+
       p {
         text-transform: capitalize;
         font-style: normal;
@@ -111,6 +160,13 @@ const Wrapper = styled.aside`
         line-height: 18px;
         text-align: center;
         color: #027a48;
+        @media (max-width: 992px) {
+          font-size: 10px;
+        }
+        @media (max-width: 585px) {
+          /* width: 159px;
+      height: 45px; */
+        }
       }
     }
     .danger {

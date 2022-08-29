@@ -41,6 +41,15 @@ const Wrapper = styled.section`
   margin-top: 141px;
 
   width: calc(100vw - 403px);
+  @media (max-width: 992px) {
+    width: 80vw;
+    margin: 120px 0px;
+  }
+  @media (max-width: 585px) {
+    display: flex;
+    width: 85vw;
+    flex-direction: column;
+  }
   .header {
     display: flex;
     justify-content: space-between;
@@ -54,6 +63,9 @@ const Wrapper = styled.section`
       font-weight: 500;
       line-height: 29px;
       margin-bottom: 36px;
+      @media (max-width: 992px) {
+        font-size: 20px;
+      }
     }
     .register {
       display: flex;
@@ -65,6 +77,14 @@ const Wrapper = styled.section`
       background: var(--green-primary-500);
       border-radius: 10px;
       transition: var(--transition-ease);
+      @media (max-width: 992px) {
+        width: 95px;
+        height: 49px;
+      }
+      @media (max-width: 585px) {
+        width: 93px;
+        height: 47px;
+      }
 
       :hover {
         cursor: pointer;
@@ -81,6 +101,12 @@ const Wrapper = styled.section`
     text-align: center;
 
     color: #ffffff;
+    @media (max-width: 1330px) {
+      font-size: 15px;
+    }
+    @media (max-width: 585px) {
+      font-size: 14px;
+    }
   }
 
   .cards-container {
@@ -102,6 +128,14 @@ const Wrapper = styled.section`
     background: #ffffff;
     border-radius: 10px;
     margin-bottom: 45px;
+    @media (max-width: 1330px) {
+      overflow-x: scroll;
+      overflow-y: hidden;
+    }
+    @media (max-width: 585px) {
+      height: auto;
+      margin-bottom: 0px;
+    }
   }
   .bordered {
     height: 55px;

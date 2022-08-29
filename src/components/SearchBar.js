@@ -24,6 +24,14 @@ const Wrapper = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* @media (max-width: 992px) {
+    width: 160px;
+    height: 48px;
+  }
+  @media (max-width: 585px) {
+    width: 159px;
+    height: 45px;
+  } */
   .input-container {
     align-items: center;
 
@@ -36,6 +44,14 @@ const Wrapper = styled.section`
     padding-left: 16px;
     height: 48px;
     width: 447px;
+    @media (max-width: 640px) {
+      width: 400px;
+      height: 46px;
+    }
+    @media (max-width: 585px) {
+      width: 300px;
+      height: 43px;
+    }
   }
   img {
     display: flex;
@@ -45,6 +61,14 @@ const Wrapper = styled.section`
     height: 20px;
     width: 20px;
     border-radius: 0px;
+    @media (max-width: 640px) {
+      width: 19px;
+      height: 19px;
+    }
+    @media (max-width: 585px) {
+      width: 17px;
+      height: 17px;
+    }
   }
   input {
     background: #ffffff;
@@ -62,7 +86,7 @@ const Wrapper = styled.section`
     outline: none;
   }
   button {
-    padding: 14px, 16px, 14px, 16px;
+    padding: 14px, 16px;
     gap: 10px;
     width: 75px;
     height: 48px;
@@ -71,6 +95,14 @@ const Wrapper = styled.section`
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.2s linear 0s;
+    @media (max-width: 640px) {
+      width: 73px;
+      height: 46px;
+    }
+    @media (max-width: 585px) {
+      width: 70px;
+      height: 43px;
+    }
     p {
       font-style: normal;
       font-weight: 400;
