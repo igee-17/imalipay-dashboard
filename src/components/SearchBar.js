@@ -33,7 +33,7 @@ const Wrapper = styled.section`
     height: 45px;
   } */
   @media (max-width: 585px) {
-    padding-left: 30px;
+    padding: 0 30px 0;
   }
   /* border: 2px solid red; */
   .input-container {
