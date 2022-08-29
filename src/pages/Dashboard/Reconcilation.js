@@ -140,6 +140,8 @@ const Wrapper = styled.section`
       align-items: flex-start;
       margin-bottom: 34px;
       padding-left: 30px;
+      width: 90%;
+      padding-left: 0 30px 0;
     }
     .left {
       /* border: 2px solid red; */
