@@ -53,7 +53,7 @@ const Wrapper = styled.section`
       height: 46px;
     }
     @media (max-width: 585px) {
-      width: 75%;
+      width: 70%;
       height: 40px;
     }
   }
@@ -70,8 +70,8 @@ const Wrapper = styled.section`
       height: 19px;
     }
     @media (max-width: 585px) {
-      width: 17px;
-      height: 17px;
+      width: 13px;
+      height: 13px;
     }
   }
   input {
@@ -80,10 +80,12 @@ const Wrapper = styled.section`
     border: none;
     display: flex;
     height: 100%;
+    width: 100%;
     align-items: center;
     justify-content: center;
   }
   input::placeholder {
+    font-size: 12px;
     color: #9b9b9b;
   }
   input:focus {
@@ -104,8 +106,8 @@ const Wrapper = styled.section`
       height: 46px;
     }
     @media (max-width: 585px) {
-      width: 15%;
-      height: 40px;
+      width: 14%;
+      height: 35px;
     }
     p {
       font-style: normal;
@@ -115,6 +117,9 @@ const Wrapper = styled.section`
       letter-spacing: -0.02em;
       color: #222222;
       transition: all 0.2s linear 0s;
+      @media (max-width: 585px) {
+        font-size: 11px;
+      }
     }
   }
   button:hover {
