@@ -123,6 +123,10 @@ const Wrapper = styled.section`
     @media (max-width: 992px) {
       font-size: 20px;
     }
+    @media (max-width: 585px) {
+      width: 90%;
+      padding-left: 30px;
+    }
   }
   .features {
     /* border: 2px solid blue; */
@@ -133,9 +137,11 @@ const Wrapper = styled.section`
     justify-content: space-between;
     @media (max-width: 585px) {
       height: auto;
-      /* width: 75%; */
+      width: 75%;
       align-items: flex-start;
       margin-bottom: 34px;
+      width: 90%;
+      padding-left: 30px;
     }
     .left {
       /* border: 2px solid red; */
@@ -325,6 +331,8 @@ const Wrapper = styled.section`
       display: flex;
       flex-direction: column;
       gap: 10px;
+      width: 80%;
+      padding-left: 30px;
     }
   }
   .card-item:hover {

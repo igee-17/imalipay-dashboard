@@ -34,12 +34,9 @@ const Wrapper = styled.aside`
     gap: 16px;
   }
   @media (max-width: 585px) {
-    width: 90%;
-    /* border: 2px solid blue; */
-    /* max-width: 90%; */
-    /* align-items: center; */
-    height: 192px;
     padding: 24px 24px;
+    width: 90%;
+    height: 192px;
   }
 
   :hover {

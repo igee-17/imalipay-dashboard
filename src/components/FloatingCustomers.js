@@ -39,8 +39,8 @@ const Wrapper = styled.aside`
     gap: 12px;
   }
   @media (max-width: 585px) {
-    width: 85%;
     height: 160px;
+    width: 90%;
     padding: 18px 18px;
   }
   .bottom {

@@ -46,7 +46,7 @@ const Wrapper = styled.aside`
   }
   @media (max-width: 585px) {
     height: 60px;
-    grid-template-columns: 111px 187px 128px 91px 100px;
+    grid-template-columns: 111px 187px 128px 120px 100px;
   }
   input {
     width: 20px;
@@ -75,7 +75,9 @@ const Wrapper = styled.aside`
       padding-left: 20px;
     }
     @media (max-width: 585px) {
-      padding-left: 10px;
+      padding-left: 0px;
+      /* align-items: flex-start; */
+      justify-content: flex-start;
     }
 
     h2 {
@@ -91,12 +93,16 @@ const Wrapper = styled.aside`
       }
       @media (max-width: 585px) {
         font-size: 10px;
+        padding-left: 0px;
       }
     }
     .profile {
       display: flex;
       align-items: center;
       gap: 12px;
+      @media (max-width: 585px) {
+        gap: 5px;
+      }
       h3 {
         font-size: 14px;
         font-weight: 400;

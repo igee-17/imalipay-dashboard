@@ -39,7 +39,7 @@ const Wrapper = styled.header`
     grid-template-columns: 121px 227px 198px 131px 120px;
   }
   @media (max-width: 585px) {
-    grid-template-columns: 111px 187px 128px 91px 100px;
+    grid-template-columns: 111px 187px 128px 120px 100px;
     height: 46px;
   }
   input {
@@ -71,7 +71,7 @@ const Wrapper = styled.header`
       padding-left: 20px;
     }
     @media (max-width: 585px) {
-      padding-left: 10px;
+      padding-left: 0px;
     }
 
     h2 {
@@ -87,6 +87,7 @@ const Wrapper = styled.header`
       }
       @media (max-width: 585px) {
         font-size: 10px;
+        padding-left: 0px;
       }
     }
   }

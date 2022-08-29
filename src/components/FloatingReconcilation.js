@@ -73,7 +73,8 @@ const Wrapper = styled.aside`
     height: 156px;
   }
   @media (max-width: 784px) {
-    width: 75%;
+    /* width: 75%; */
+    width: 90%;
     height: 190px;
   }
 

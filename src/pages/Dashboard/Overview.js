@@ -53,10 +53,7 @@ const Wrapper = styled.section`
       font-size: 20px;
     }
     @media (max-width: 585px) {
-      width: 85%;
       width: 80%;
-      /* border: 2px solid red; */
-      /* align-items: center; */
       padding-left: 30px;
     }
   }
@@ -76,8 +73,6 @@ const Wrapper = styled.section`
       flex-direction: column;
       gap: 20px;
       width: 80%;
-      /* border: 2px solid red; */
-      /* align-items: center; */
       padding-left: 30px;
     }
   }

@@ -50,6 +50,10 @@ const Wrapper = styled.section`
     @media (max-width: 992px) {
       font-size: 20px;
     }
+    @media (max-width: 585px) {
+      width: 80%;
+      padding-left: 30px;
+    }
   }
   .cards-container {
     margin-bottom: 48px;
@@ -69,6 +73,8 @@ const Wrapper = styled.section`
       display: flex;
       flex-direction: column;
       gap: 10px;
+      width: 80%;
+      padding-left: 30px;
     }
   }
 

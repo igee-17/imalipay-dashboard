@@ -58,6 +58,10 @@ const Wrapper = styled.section`
     margin-bottom: 36px;
     @media (max-width: 992px) {
       font-size: 20px;
+      @media (max-width: 585px) {
+        width: 80%;
+        padding-left: 30px;
+      }
     }
   }
   .cards-container {
@@ -77,6 +81,8 @@ const Wrapper = styled.section`
       display: flex;
       flex-direction: column;
       gap: 10px;
+      width: 80%;
+      padding-left: 30px;
     }
   }
   .card-item:hover {

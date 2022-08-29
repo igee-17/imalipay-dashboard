@@ -21,7 +21,10 @@ const Wrapper = styled.header`
   @media (max-width: 585px) {
     margin-bottom: 30px;
     justify-content: flex-start;
+    width: 80%;
+    padding-left: 30px;
   }
+
   .content {
     display: flex;
     align-items: center;

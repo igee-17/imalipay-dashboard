@@ -30,7 +30,6 @@ const InfoCardDefaults = (props) => {
 };
 
 const Wrapper = styled.aside`
-  /* border: 1px solid #eaecf0; */
   display: grid;
   grid-template-columns: 297px 171px 228px 96px 120px;
   width: 100%;
@@ -40,11 +39,11 @@ const Wrapper = styled.aside`
     width: fit-content;
   }
   @media (max-width: 992px) {
-    grid-template-columns: 227px 121px 185px 131px 120px;
+    grid-template-columns: 227px 121px 145px 131px 120px;
   }
   @media (max-width: 585px) {
     height: 60px;
-    grid-template-columns: 200px 100px 108px 91px 100px;
+    grid-template-columns: 200px 100px 138px 91px 100px;
   }
   input {
     width: 20px;
@@ -68,12 +67,13 @@ const Wrapper = styled.aside`
     align-items: center;
     padding-left: 25px;
     border-bottom: 1px solid #eaecf0;
+    padding-left: 0px;
     @media (max-width: 992px) {
       background: #ffffff;
       padding-left: 20px;
     }
     @media (max-width: 585px) {
-      padding-left: 10px;
+      padding-left: 0px;
     }
 
     h2 {
@@ -84,10 +84,12 @@ const Wrapper = styled.aside`
       line-height: 16px;
       text-transform: uppercase;
       color: #707070;
+      padding-left: 0px;
       @media (max-width: 992px) {
         font-size: 11px;
       }
       @media (max-width: 585px) {
+        padding-left: 0px;
         font-size: 10px;
       }
     }

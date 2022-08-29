@@ -52,9 +52,10 @@ const Wrapper = styled.aside`
     gap: 12px;
   }
   @media (max-width: 585px) {
-    width: 75%;
-    height: 190px;
+    height: 180px;
     gap: 24px;
+    padding: 0 12px;
+    width: 90%;
   }
   :hover {
     box-shadow: 0px 1px 4px rgba(16, 24, 40, 0.1);
@@ -187,7 +188,7 @@ const Wrapper = styled.aside`
       font-size: 20px;
     }
     @media (max-width: 585px) {
-      font-size: 28px;
+      font-size: 24px;
     }
   }
 `;
