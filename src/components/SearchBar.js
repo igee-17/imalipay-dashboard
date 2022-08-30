@@ -85,7 +85,9 @@ const Wrapper = styled.section`
     justify-content: center;
   }
   input::placeholder {
-    font-size: 12px;
+    @media (max-width: 585px) {
+      font-size: 12px;
+    }
     color: #9b9b9b;
   }
   input:focus {
